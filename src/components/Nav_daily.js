@@ -14,12 +14,7 @@ const Nav_daily = ({ setCategory,setSearchQuery }) => {
       </div>
       <h1 style={{ cursor: "pointer" }}>News Dashboard </h1>
       <input type="text" placeholder="Search News" onChange={handleSearch}/>
-      {/* <img
-        style={{ cursor: "pointer" }}
-        src={process.env.PUBLIC_URL + "/dailyburst.jpg"}
-        height="80%"
-        alt="logo"
-      /> */}
+      
     </div>
   );
 };
