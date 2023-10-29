@@ -19,9 +19,8 @@ const NewsCard = ({ newsItem }) => {
           <span className="title"> {newsItem.headline}</span>
           <br />{" "}
           <span className="author">
-            <a href={newsItem.url} target="_blank">
               <b>source:</b>
-            </a>{" "}
+            {" "}
             <span className="muted">
               by {newsItem.newsSource ? newsItem.newsSource : "unknown"} /{" "}
             </span>

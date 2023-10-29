@@ -11,3 +11,11 @@
 h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+input{
+    margin-left: 90px;
+    height: 30px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 15px;
+}

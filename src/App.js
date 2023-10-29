@@ -35,7 +35,7 @@ function App() {
     <div className="App">
       <Nav_daily setCategory={setCategory} setSearchQuery={setSearchQuery} />
       <NewsContent newsArray={searchQuery ? filterNews() : newsArray} />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
